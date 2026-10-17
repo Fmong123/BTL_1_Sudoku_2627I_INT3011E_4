@@ -1,0 +1,71 @@
+{
+  "format_version": 1,
+  "state": "complete",
+  "generation_id": "61a8349a06214d559b39881a5a3c94c8",
+  "config": {
+    "mode": "sat_only",
+    "seed": 42,
+    "count_per_size": 2500,
+    "clue_ratios": [
+      0.2,
+      0.4,
+      0.6,
+      0.8
+    ]
+  },
+  "files": [
+    {
+      "size": 16,
+      "path": "16x16/generated.csv",
+      "rows": 5000,
+      "sha256": "751e584c39b0adf9b5ec5c8f9796a6f506782c7ef00a02500a54c32d3f78c7b3",
+      "groups": {
+        "generated_16x16_clues51": 1250,
+        "generated_16x16_clues102": 1250,
+        "generated_16x16_clues154": 1250,
+        "generated_16x16_clues205": 1250
+      },
+      "config": {
+        "mode": "sat_only",
+        "note": "Existing CSVs moved without regeneration; original count/range settings may differ by size"
+      },
+      "generation_id": "imported_d9d117bb75ed48ff826728de697e6b9e"
+    },
+    {
+      "size": 25,
+      "path": "25x25/generated.csv",
+      "rows": 1000,
+      "sha256": "3c234c753128307f91e3125b5a345681098e29260b68bda765f362c350efa1b2",
+      "groups": {
+        "generated_25x25_clues125": 250,
+        "generated_25x25_clues250": 250,
+        "generated_25x25_clues375": 250,
+        "generated_25x25_clues500": 250
+      },
+      "config": {
+        "mode": "sat_only",
+        "note": "Existing CSVs moved without regeneration; original count/range settings may differ by size"
+      },
+      "generation_id": "imported_d9d117bb75ed48ff826728de697e6b9e"
+    },
+    {
+      "size": 9,
+      "path": "9x9/generated.csv",
+      "rows": 10000,
+      "sha256": "743827fedf34e77af290f1d6b0f21c86478f15f6a7b4f1c36479ee6923d29f4d",
+      "config": {
+        "mode": "sat_only",
+        "seed": 42,
+        "count_per_size": 2500,
+        "clue_ratios": [
+          0.2,
+          0.4,
+          0.6,
+          0.8
+        ]
+      },
+      "generation_id": "61a8349a06214d559b39881a5a3c94c8"
+    }
+  ],
+  "elapsed_seconds": 1.1145195000008243
+}
