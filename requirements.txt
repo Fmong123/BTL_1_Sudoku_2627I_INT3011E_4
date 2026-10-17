@@ -1,0 +1,6 @@
+python-sat>=1.8.dev13,<2
+ortools>=9.10,<10
+docplex>=2.28,<3
+cplex>=22.1,<23
+gurobipy>=11,<14
+
